@@ -1,0 +1,21 @@
+model,decile,predicted,observed,n
+logistic regression,1,0.0225,0.0466,4145
+logistic regression,2,0.0411,0.0432,4144
+logistic regression,3,0.0502,0.0422,4144
+logistic regression,4,0.057,0.0492,4144
+logistic regression,5,0.064,0.049,4144
+logistic regression,6,0.072,0.0586,4144
+logistic regression,7,0.0821,0.0664,4144
+logistic regression,8,0.099,0.0874,4144
+logistic regression,9,0.1592,0.1402,4144
+logistic regression,10,0.4522,0.4597,4144
+gradient boosting,1,0.0319,0.027,4145
+gradient boosting,2,0.0406,0.0297,4144
+gradient boosting,3,0.047,0.0396,4146
+gradient boosting,4,0.0543,0.0423,4142
+gradient boosting,5,0.061,0.0454,4144
+gradient boosting,6,0.0666,0.0579,4144
+gradient boosting,7,0.0746,0.0712,4144
+gradient boosting,8,0.0931,0.0876,4144
+gradient boosting,9,0.1209,0.1129,4144
+gradient boosting,10,0.4906,0.529,4144

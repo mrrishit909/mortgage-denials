@@ -1,0 +1,7 @@
+row_0,denials,collateral,credit history,debt-to-income,employment history,incomplete application,insufficient cash,mortgage insurance denied,not given,other,unverifiable information
+Asian,846,0.1017,0.0544,0.4917,0.0213,0.0768,0.0757,0.0012,0.0,0.0993,0.078
+Black,1552,0.1044,0.1385,0.4807,0.0296,0.0638,0.0619,0.0013,0.0,0.0683,0.0515
+Hispanic,3666,0.1418,0.0851,0.4697,0.0374,0.0554,0.06,0.0005,0.0003,0.0791,0.0706
+Not reported,2099,0.152,0.0934,0.4126,0.0272,0.1024,0.0648,0.0014,0.0,0.0838,0.0624
+Other or joint,353,0.1615,0.1416,0.4108,0.0142,0.0595,0.0765,0.0028,0.0,0.0453,0.0878
+White,5520,0.2312,0.0861,0.3793,0.0266,0.0917,0.0659,0.0011,0.0,0.0679,0.0502

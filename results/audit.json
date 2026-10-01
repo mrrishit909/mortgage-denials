@@ -1,0 +1,242 @@
+[
+ {
+  "model": "gradient boosting",
+  "group": "White",
+  "n": 20278,
+  "denied": 1697,
+  "denial_rate": 0.08368675411776309,
+  "denial_ci": [
+   0.07995373896311597,
+   0.08757747193405593
+  ],
+  "mean_predicted": 0.09557143984893506,
+  "observed_over_predicted": 0.875646053361156,
+  "flag_rate": 0.16801459710030575,
+  "recall": 0.5745433117265764,
+  "recall_ci": [
+   0.550877736103376,
+   0.5978721657101779
+  ],
+  "false_flag_rate": 0.13088638932242613
+ },
+ {
+  "model": "gradient boosting",
+  "group": "Hispanic",
+  "n": 9446,
+  "denied": 1298,
+  "denial_rate": 0.13741266144399747,
+  "denial_ci": [
+   0.1306170335244077,
+   0.14450308041083135
+  ],
+  "mean_predicted": 0.13021932436610362,
+  "observed_over_predicted": 1.0552401658733095,
+  "flag_rate": 0.27493118780436165,
+  "recall": 0.6463790446841294,
+  "recall_ci": [
+   0.6199729380174628,
+   0.6719212841439919
+  ],
+  "false_flag_rate": 0.21575846833578793
+ },
+ {
+  "model": "gradient boosting",
+  "group": "Black",
+  "n": 2902,
+  "denied": 450,
+  "denial_rate": 0.15506547208821503,
+  "denial_ci": [
+   0.14235280321553023,
+   0.16869013275645117
+  ],
+  "mean_predicted": 0.13421879153119176,
+  "observed_over_predicted": 1.1553186429351705,
+  "flag_rate": 0.282908339076499,
+  "recall": 0.6644444444444444,
+  "recall_ci": [
+   0.6195884659900941,
+   0.7065166024727509
+  ],
+  "false_flag_rate": 0.2128874388254486
+ },
+ {
+  "model": "gradient boosting",
+  "group": "Asian",
+  "n": 2611,
+  "denied": 200,
+  "denial_rate": 0.07659900421294523,
+  "denial_ci": [
+   0.06700835491469471,
+   0.08743368877342568
+  ],
+  "mean_predicted": 0.08944107553324866,
+  "observed_over_predicted": 0.8564186393808565,
+  "flag_rate": 0.10800459594025277,
+  "recall": 0.58,
+  "recall_ci": [
+   0.5107207393958046,
+   0.6462640083838327
+  ],
+  "false_flag_rate": 0.06885109912899212
+ },
+ {
+  "model": "gradient boosting",
+  "group": "Other or joint",
+  "n": 1208,
+  "denied": 108,
+  "denial_rate": 0.08940397350993377,
+  "denial_ci": [
+   0.07458842277762295,
+   0.10682264978514716
+  ],
+  "mean_predicted": 0.10680719461472972,
+  "observed_over_predicted": 0.8370594680669959,
+  "flag_rate": 0.17880794701986755,
+  "recall": 0.6944444444444444,
+  "recall_ci": [
+   0.6021339202309699,
+   0.7733976620898133
+  ],
+  "false_flag_rate": 0.12818181818181817
+ },
+ {
+  "model": "gradient boosting",
+  "group": "Not reported",
+  "n": 4996,
+  "denied": 567,
+  "denial_rate": 0.11349079263410729,
+  "denial_ci": [
+   0.1049906545118372,
+   0.1225848532701786
+  ],
+  "mean_predicted": 0.11173725664188991,
+  "observed_over_predicted": 1.0156933868336981,
+  "flag_rate": 0.1933546837469976,
+  "recall": 0.6278659611992945,
+  "recall_ci": [
+   0.5873433887317664,
+   0.66666759410672
+  ],
+  "false_flag_rate": 0.13772860690900882
+ },
+ {
+  "model": "gradient boosting + lender",
+  "group": "White",
+  "n": 20278,
+  "denied": 1697,
+  "denial_rate": 0.08368675411776309,
+  "denial_ci": [
+   0.07995373896311597,
+   0.08757747193405593
+  ],
+  "mean_predicted": 0.09571964712925962,
+  "observed_over_predicted": 0.8742902489470387,
+  "flag_rate": 0.17901173685767827,
+  "recall": 0.6098998232174425,
+  "recall_ci": [
+   0.5864692073548526,
+   0.6328340075718492
+  ],
+  "false_flag_rate": 0.13965879123836178
+ },
+ {
+  "model": "gradient boosting + lender",
+  "group": "Hispanic",
+  "n": 9446,
+  "denied": 1298,
+  "denial_rate": 0.13741266144399747,
+  "denial_ci": [
+   0.1306170335244077,
+   0.14450308041083135
+  ],
+  "mean_predicted": 0.12984214346426534,
+  "observed_over_predicted": 1.0583055530180434,
+  "flag_rate": 0.24348930764344695,
+  "recall": 0.6486902927580893,
+  "recall_ci": [
+   0.6223160185219238,
+   0.6741870597789222
+  ],
+  "false_flag_rate": 0.17893961708394698
+ },
+ {
+  "model": "gradient boosting + lender",
+  "group": "Black",
+  "n": 2902,
+  "denied": 450,
+  "denial_rate": 0.15506547208821503,
+  "denial_ci": [
+   0.14235280321553023,
+   0.16869013275645117
+  ],
+  "mean_predicted": 0.13370095243584681,
+  "observed_over_predicted": 1.1597933243042489,
+  "flag_rate": 0.2622329427980703,
+  "recall": 0.6755555555555556,
+  "recall_ci": [
+   0.6309718065751925,
+   0.7171673881351422
+  ],
+  "false_flag_rate": 0.1863784665579119
+ },
+ {
+  "model": "gradient boosting + lender",
+  "group": "Asian",
+  "n": 2611,
+  "denied": 200,
+  "denial_rate": 0.07659900421294523,
+  "denial_ci": [
+   0.06700835491469471,
+   0.08743368877342568
+  ],
+  "mean_predicted": 0.08486654706211164,
+  "observed_over_predicted": 0.9025818401317117,
+  "flag_rate": 0.12830333205668326,
+  "recall": 0.645,
+  "recall_ci": [
+   0.5765211307549043,
+   0.7080137245956883
+  ],
+  "false_flag_rate": 0.0854417254251348
+ },
+ {
+  "model": "gradient boosting + lender",
+  "group": "Other or joint",
+  "n": 1208,
+  "denied": 108,
+  "denial_rate": 0.08940397350993377,
+  "denial_ci": [
+   0.07458842277762295,
+   0.10682264978514716
+  ],
+  "mean_predicted": 0.10641646367910966,
+  "observed_over_predicted": 0.8401329119479511,
+  "flag_rate": 0.18460264900662252,
+  "recall": 0.6759259259259259,
+  "recall_ci": [
+   0.5829333238469441,
+   0.7568333458718599
+  ],
+  "false_flag_rate": 0.13636363636363635
+ },
+ {
+  "model": "gradient boosting + lender",
+  "group": "Not reported",
+  "n": 4996,
+  "denied": 567,
+  "denial_rate": 0.11349079263410729,
+  "denial_ci": [
+   0.1049906545118372,
+   0.1225848532701786
+  ],
+  "mean_predicted": 0.11200628521785126,
+  "observed_over_predicted": 1.0132537867260634,
+  "flag_rate": 0.20816653322658127,
+  "recall": 0.6666666666666666,
+  "recall_ci": [
+   0.6268579453196617,
+   0.7042322323111931
+  ],
+  "false_flag_rate": 0.1494694061864981
+ }
+]

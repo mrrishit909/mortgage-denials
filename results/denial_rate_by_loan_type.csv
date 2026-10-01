@@ -1,0 +1,5 @@
+loan_type,size,mean
+FHA,29913,0.1477
+USDA,175,0.24
+VA,16551,0.0919
+conventional,85758,0.0939

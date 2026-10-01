@@ -244,6 +244,7 @@ def main():
     share.round(4).to_csv(out / "denial_reasons.csv")
     print(share.round(3).to_string())
 
+    d.groupby(features(d)["loan_type"])["denied"].agg(["size", "mean"]).round(4).to_csv(out / "denial_rate_by_loan_type.csv")
     by_year = d.groupby("activity_year")["denied"].agg(["size", "mean"]).round(4)
     by_year.to_csv(out / "denial_rate_by_year.csv")
     print(by_year)
